@@ -1,0 +1,16 @@
+PS C:\Users\David\Desktop\СПО\car-showroom\backend\src> npm run dev
+
+> backend@1.0.0 dev
+> nodemon --exec ts-node src/app.ts
+
+[nodemon] 3.1.14
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: ts,json
+[nodemon] starting `ts-node src/app.ts`
+◇ injected env (7) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+(sequelize) Warning: PostgresSQL does not support 'INTEGER' with LENGTH, UNSIGNED or ZEROFILL. Plain 'INTEGER' will be used instead.
+>> Check: http://www.postgresql.org/docs/9.4/static/datatype.html
+[2026-05-31T17:17:37.820Z] [database] [DEBUG] SQL { sql: 'Executing (default): SELECT 1+1 AS result' }
+[2026-05-31T17:17:37.821Z] [database] [INFO] Database connection established
+[2026-05-31T17:17:37.830Z] [app] [INFO] Server is running on port: 3000
